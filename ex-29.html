@@ -1,0 +1,54 @@
+<!-- یک تابع جاوا اسکریپت بنویسید که یک عدد را معکوس کند. -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-29.css">
+
+</head>
+
+<body>
+
+    <div>
+
+        <label for="number">Enter a number :</label>
+
+        <input type="text" id="number">
+
+        <p>
+
+            <span onclick="output()">Reverse the entered number and display it :</span>
+
+            <span id="demo"></span>
+
+        </p>
+
+    </div>
+
+    <script>
+
+        function output() {
+
+            let number = document.getElementById("number").value;
+
+            let a = number.length - 1;
+
+            let num = '';
+            for (let i = a ; i >= 0 ; i--) {
+
+                num += number[i];
+                
+            }
+
+            document.getElementById("demo").innerHTML = num;
+
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+div {
+    background-color: #a0e9bd;
+    border: 1px solid #286818;
+    width: 30%;
+    padding: 2%;
+    margin-left: 33%;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+
+input {
+    background-color: #abe9ab;
+    border: 1px solid darkseagreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:hover {
+    box-shadow: 0px 0px 2px 2px rgb(153, 175, 115);
+}
+
+input:focus {
+    outline: 1px solid rgb(119, 118, 118);
+}
